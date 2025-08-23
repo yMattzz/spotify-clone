@@ -1,0 +1,31 @@
+.mobilebar {
+    display: none;
+    justify-content: center;
+}
+
+.coisa {
+    background: linear-gradient(rgba(0, 0, 0, 0.496)), rgba(0, 0, 0, 0);
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn i {
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 730px) {
+    .mobilebar {
+        display: flex;
+    }
+}
