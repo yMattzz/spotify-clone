@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'navbar.css';
+@import 'area1.css';
+@import 'area2.css';
+
+:root {
+    --bg: #121212;
+    --green-spotify: #1db954;
+    --bg2: #212121;
+	--bg3: #535353; 	
+	--white: #b3b3b3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    scrollbar-width: none;
+}
+
+body {
+    background: #000;
+    grid-template-columns: 1fr 2fr;
+    width: 100vw;
+    height: 100dvh;
+}
+
+main {
+    display: grid;
+    height: calc(100dvh - 60px);
+    width: 100vw;
+    grid-template-columns: 1fr 3fr;
+}
+
+.area1, .area2 {
+    background: var(--bg);
+    border-radius: 10px;
+    margin: 5px;
+}

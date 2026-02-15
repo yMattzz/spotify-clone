@@ -1,0 +1,43 @@
+.area1 .head {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    > h2 {
+        font-size: 1.2em;
+        color: white;
+    }
+}
+
+.area1 .head .add {
+    padding: .5em;
+    background: var(--bg2);
+    border-radius: 100%;
+    display: grid;
+    cursor: pointer;
+    > svg {
+        fill: var(--white);
+    }
+}
+
+.playlists .playlist {
+    background: #1f1f1f;
+    margin-inline: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: .8em;
+    color: white;
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+
+.playlist button {
+    padding: 5px 15px;
+    border-radius: 100px;
+    background: white;
+    font: inherit;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
